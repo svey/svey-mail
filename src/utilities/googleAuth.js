@@ -92,5 +92,6 @@ export async function googleSignIn() {
     displayName: name,
     idToken: tokens.id_token,
   };
+  console.log(providerUser);
   // return mySignInFunction(providerUser); // eslint-disable-line no-undef
 }
